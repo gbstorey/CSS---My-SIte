@@ -109,9 +109,11 @@ img {
 #cloud_one {
  top:150px;
  right:25%;
+ visibility:hidden;
 }
 
 #cloud_two {
  top:470px;
  left:20%;
+ visibility:hidden;
 }
