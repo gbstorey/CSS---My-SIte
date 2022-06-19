@@ -1,41 +1,40 @@
 /* **************************************** Tags ******************************************** */
 body {
  margin:0px;
- background-color:#ecf3df;
+ background-color:#efe5dc;
  text-align:center;
  font-family: 'Joan', serif;
 }
 
 h1 {
- color: #01773d;
+ color: #ae5c2c;
  font-family: 'Josefin Sans', sans-serif;
- font-size: 70px;
+ /* 16px = 100% = 1em */
+ font-size: 6.875em;
  font-weight:600;
- margin:0 auto;
- text-shadow: 3px 2px black;
- margin-top:20px;
 }
 
 h2 {
- color:#db8f3e;
+ color:#424027;
  margin:0 auto;
- font-family: 'Joan', serif;
+ font-family: 'Josefin Sans', sans-serif;
  font-size: 60px;
  font-weight:600;
- text-shadow: 3px 2px 1px black;
 }
 
 h3 {
- color:#db8f3e;
- font: 20px;
+ color:#efe5dc;
+ font-size: 1.7em;
  font-weight: 600;
- font-family: 'Joan', serif;
- text-shadow: 2px 2px black;
+ font-family: 'Josefin Sans', sans-serif;
  text-decoration:none;
+ width:10%;
 }
 
 p {
- font-size:175%;
+ font-family: 'Varela Round', sans-serif;
+ font-weight:400;
+ font-size:180%;
  padding-top:1%;
  width:70%;
  margin:0 auto;
@@ -49,22 +48,70 @@ img {
 
 ul {
  padding:0;
- text-align:left;
+ text-align:center;
 }
 /* *************************************** Classes ****************************************** */
+/* Banner Classes */
 .banner {
  width:100%;
  height:80px;
- background-color:#01773d;
+ background-color:#424027;
  border-bottom:solid black 1px;
  position:relative;
  z-index:1;
 }
 
+.instagram {
+ width:50px;
+ vertical-align:top;
+ position:absolute;
+ top:15px;
+ left:90px;
+}
+
+.linkedin {
+ width:50px;
+ vertical-align:top;
+ position:absolute;
+ top:15px;
+ left:160px;
+}
+
+.home {
+ width:50px;
+ vertical-align:top;
+ position:absolute;
+ top:15px;
+ left:20px;
+}
+
+.links_container {
+ display:flex;
+ text-align:center;
+ position:absolute;
+ right:0;
+}
+
+.link {
+ text-decoration:none;
+ text-align:center;
+}
+
+.subpage {
+ position:relative;
+ text-align:center;
+ width:200px;
+}
+
+/* Biography Classes */
+
+.name {
+ margin: 100px auto 0 auto;
+}
+.hello {
+ margin: 50px auto;
+}
 .background{
- /* margin-left:20px;
- margin-right:20px;
- margin-top:10px; */
  border: 3px solid black;
 }
 
@@ -79,7 +126,12 @@ ul {
 .skills{
  position:relative;
  width:100%;
- background-color: #ecf3df;
+ background-color: #efe5dc;
+ margin-top:100px;
+}
+
+.profle {
+ text-align:center;
 }
 
 .skill_list{
@@ -108,13 +160,13 @@ ul {
 
 
 .top-container {
- background-color: #ecf3df;
+ background-color: #efe5dc;
  position:relative;
  z-index:0;
 }
 
 .middle-container {
- background-color: #ecf3df;
+ background-color: #efe5dc;
  position:relative;
  width:100%;
  height:fit-content;
@@ -122,20 +174,16 @@ ul {
 }
 
 .bottom-container {
- background-color: #ecf3df;
+ background-color: #efe5dc;
  width:100%;
  position:relative;
  top:400px;
- z-index:0;
+ height:200px;
 }
 
 .cloud {
  position:absolute;
  width:150px;
-}
-
-.profile {
- text-align:center;
 }
 
 .flex_pictures {
@@ -170,11 +218,6 @@ ul {
  visibility:hidden;
 }
 
-#intro {
- padding-top:5%;
- width:30%;
-}
-
 #intro_subtitle {
  padding-top:2%;
  width:50%;
@@ -188,10 +231,16 @@ ul {
 #nav_contact_me {
  position:absolute;
  top:10px;
- right:120px;
+ right:200px;
 }
 
 #nav_my_work {
+ position:absolute;
+ top:10px;
+ right:100px;
+}
+
+#nav_credits{
  position:absolute;
  top:10px;
  right:20px;
@@ -235,5 +284,5 @@ ul {
  position:relative;
  max-width:1000px;
  min-width:735px;
- color:#db8f3e;
+ color:#ae5c2c;
 }
