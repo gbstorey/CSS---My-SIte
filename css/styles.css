@@ -50,7 +50,9 @@ ul {
  padding:0;
  text-align:center;
 }
+
 /* *************************************** Classes ****************************************** */
+
 /* Banner Classes */
 .banner {
  width:100%;
@@ -59,22 +61,6 @@ ul {
  border-bottom:solid black 1px;
  position:relative;
  z-index:1;
-}
-
-.instagram {
- width:50px;
- vertical-align:top;
- position:absolute;
- top:15px;
- left:90px;
-}
-
-.linkedin {
- width:50px;
- vertical-align:top;
- position:absolute;
- top:15px;
- left:160px;
 }
 
 .home {
@@ -103,14 +89,28 @@ ul {
  width:200px;
 }
 
+/* Middle Container Classes */
+
+.middle-container {
+ background-color: #efe5dc;
+ position:relative;
+ width:100%;
+ height:fit-content;
+ z-index:0;
+}
+
 /* Biography Classes */
+
+.hello {
+ margin: 50px auto;
+}
 
 .name {
  margin: 100px auto 0 auto;
 }
-.hello {
- margin: 50px auto;
-}
+
+/* Skills Block Classes */
+
 .background{
  border: 3px solid black;
 }
@@ -128,10 +128,6 @@ ul {
  width:100%;
  background-color: #efe5dc;
  margin-top:100px;
-}
-
-.profle {
- text-align:center;
 }
 
 .skill_list{
@@ -158,34 +154,6 @@ ul {
  visibility:hidden;
 }
 
-
-.top-container {
- background-color: #efe5dc;
- position:relative;
- z-index:0;
-}
-
-.middle-container {
- background-color: #efe5dc;
- position:relative;
- width:100%;
- height:fit-content;
- z-index:0;
-}
-
-.bottom-container {
- background-color: #efe5dc;
- width:100%;
- position:relative;
- top:400px;
- height:200px;
-}
-
-.cloud {
- position:absolute;
- width:150px;
-}
-
 .flex_pictures {
  display:flex;
  flex-wrap:wrap;
@@ -195,8 +163,31 @@ ul {
  margin: 0 auto;
 }
 
+/* Bottom Container */
+
+.bottom-container {
+ background-color: #424027;
+ width:100%;
+ position:relative;
+ height:fit-content;
+ margin-top: 100px;
+}
+
+.instagram {
+ width:50px;
+ vertical-align:top;
+ position:relative;
+ margin: 20px 5px;
+}
+
+.linkedin {
+ width:50px;
+ vertical-align:top;
+ position:relative;
+ margin: 20px 5px;
+}
+
 /* ***************************************** IDs ******************************************** */
-/* dookie */
 
 #avatar {
  width:75px;
@@ -204,18 +195,6 @@ ul {
  position:absolute;
  top:5px;
  left:40px;
-}
-
-#cloud_one {
- top:50%;
- right:3%;
- visibility:hidden;
-}
-
-#cloud_two {
- top:80%;
- left:5%;
- visibility:hidden;
 }
 
 #intro_subtitle {
